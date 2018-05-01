@@ -1,22 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-
-    <menu xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        xmlns:app="http://schemas.android.com/apk/res-auto">
-
-    <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="@string/action_settings"
-        />
-    </menu>
 
     <Button
         android:id="@+id/NoticesButton"
@@ -31,13 +17,6 @@
         android:layout_height="wrap_content"
         android:onClick="onVersionClick"
         android:text="version" />
-
-    <Button
-        android:id="@+id/PrivacyButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onPrivacyClick"
-        android:text="privacy" />
 
     <Button
         android:id="@+id/LogOutButton"
